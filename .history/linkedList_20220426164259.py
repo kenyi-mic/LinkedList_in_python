@@ -1,6 +1,4 @@
-
-
-from platform import node
+import re
 
 
 class Node:

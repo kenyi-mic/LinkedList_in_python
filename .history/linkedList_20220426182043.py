@@ -1,8 +1,5 @@
 
 
-from platform import node
-
-
 class Node:
     # an object for storing a single linked list
     data = None

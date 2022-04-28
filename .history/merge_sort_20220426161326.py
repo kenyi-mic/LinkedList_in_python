@@ -1,7 +1,4 @@
 def merge_sort(list):
-    """
-    Take O(n log n)
-    """
     if len(list) <= 1:
         return list
     left_half, right_half = split(list)
@@ -13,7 +10,7 @@ def merge_sort(list):
 
 def split(list):
     """
-    Take O(K log n) time
+    Take O(log n) time
     """
     mid = len(list)//2
     left = list[:mid]
